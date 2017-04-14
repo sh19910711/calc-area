@@ -20,7 +20,7 @@ class TestCalc < MiniTest::Unit::TestCase
 1.5
 EOF
     output = StringIO.new
-    calc_with_input input, output
+    calc_with input, output
     assert_equal output.string, <<EOF
 314
 196350

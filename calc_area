@@ -2,4 +2,4 @@
 
 require_relative './lib/calc'
 
-calc_with_input($stdin, $stdout)
+calc_with($stdin, $stdout)
